@@ -1,0 +1,158 @@
+﻿body {
+}
+
+.reg {
+    text-align: center;
+}
+
+.auth {
+    text-align: center;
+}
+
+hr {
+    background: #732AAC;
+    height: 3px;
+}
+
+.tbRegistration {
+    width: 390px;
+    height: 45px;
+    border: 1px solid #732AAC;
+}
+
+.btEnter {
+    background: #732AAC;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #732AAC;
+    color: #ffffff;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+    .btEnter:hover {
+        background: #45136d;
+        transition: 0.5s;
+    }
+
+.ErrorMes {
+    font-size: 14px;
+    color: #FF0000;
+}
+
+a {
+    font-size: 18px;
+    color: #000000;
+}
+
+    a:hover {
+        font-size: 18px;
+        color: #000000;
+    }
+
+.form-control {
+    border: 1px solid #732AAC !important;
+    border-radius: 0px;
+}
+
+.formButtons {
+    background: #732AAC;
+    border: 1px solid #732AAC;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+    .formButtons:hover {
+        background: #45136d;
+        transition: 0.5s;
+    }
+
+.lblTitle {
+    font-size: 18px;
+}
+
+.searchButtons {
+    width: 80px;
+    height: 30px;
+    background: #732AAC;
+    border: 1px solid #732AAC;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+    .searchButtons:hover {
+        background: #45136d;
+        transition: 0.5s;
+    }
+
+.gridView {
+    background: #732AAC;
+    border: 1px solid #000000;
+    font-size: 18px;
+    color: #ffff;
+    width: 100%
+}
+
+    .gridView a {
+        font-size: 18px;
+        color: #ffff;
+    }
+
+
+
+.searchPanel {
+    margin-bottom: 20px;
+}
+
+.text-block {
+    border: 2px solid #732AAC;
+    max-width: 1000px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+    .column img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+        .column img:hover {
+            opacity: 1;
+        }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-img {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
